@@ -1,0 +1,20 @@
+>>>Name - Aashish Raj
+>>>Roll No. - 19MT10001
+
+>>>Dataset Preparation:
+
+>>subgraph.py performs required operations on facebook_combined.txt graph and automatically saves it to "subgraphs" folder.
+>>subgraph1.py performs required operations on com-amazon.subgraph.txt graph and automatically saves it to "subgraphs" folder.
+>>Initially the "subgraphs" folder will contain the facebook.elist and amazon.elist graphs. Please delete the existing graphs and run the programs separately to check the outputs.
+
+>>>Computations: 
+
+>>All computations are as per specified in the problem statement and the program is written such that input and output operations can be performed exactly as specified in the problem statement.
+>>Regarding saving all the plots, all .png file will be autosaved to "plots" folder and can be accessed from there.
+>>There is no need to specify the parent directories in any part of the program except when running the program from the terminal window.
+>>Initially the "plots" folder will contain all the specified plots in .png format. Please delete the existing files and run the program to check the output.
+
+>>>Special Mentions:
+
+>>Program was written on Python 3.6 on an Ubuntu 18.04 platform with the use of Snap 5.0 libraries and Gnuplot 5.4.0 libraries.
+>>Program can run and execute on any laptop of standard specifications and runtime will noe excedd the stipulated time of 10 minutes(which might otherwise require special mention)
