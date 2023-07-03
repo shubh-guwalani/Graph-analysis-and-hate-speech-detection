@@ -1,0 +1,18 @@
+Assignment_2 : Instructions
+>>>Name - Aashish Raj
+>>>Roll No. - 19MT10001
+
+>>>Task 1:
+
+>>"gen_centrality.py" program performs required tasks on the "facebook_combined.txt" file and saves the output files in the centralities folder the the three separate text files.
+>>The program is divided into two parts and each part pertains to one centrality measure which is made clear by the use of appropriate comments in the program itself.
+>>The program might take a little longer than 10 minutes to execute completely as three different centrality measures are being calculated sequentially.
+>>The files are opened in "a+", i.e., append mode. Therefore before running the program again on the system, make sure to delete the contents of/the existing files in the "centralities" folder.
+
+>>>Task 2:
+
+>>"analyze_centrality.py" program performs required tasks on the "facebook_combined.txt" file and prints the number of nodes overlapping in the data obtained in this program and the data stored in the files via the previous program.
+
+>>>Special Mentions:
+
+>>Program was written on Python 3.6 on an Ubuntu 18.04 platform with the use of Snap 5.0 libraries.
