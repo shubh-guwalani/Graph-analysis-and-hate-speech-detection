@@ -1,0 +1,36 @@
+
+Assignment_2 : Instructions
+>>>Name - Aashish Raj
+>>>Roll No. - 19MT10001
+
+>>>Task 1:
+
+>>"main.py" is a program that takes inputs as they are instructed to be taken in the problem statement and saves the required files in their respective directories.
+>>"main.py" program is divided into 4 parts, the preprocessiong function, subtask1(scikit learn and random forrest classifier), subtask2(word2vec and SVM classifier with rbf kernel) and subtask3(fasttext). The program runs all the required code according to requirements.
+>>Moreover, individual codes for "subtask1.py","subtask2.py" and "subtask3.py" has also been provided and can work independently and effectively. This separate program was made because in the "main.py" snippet, the code for subtask2 was malfunctioning and I thought it would be a good idea to give individual access to subtasks for more effectiveness.
+>>For more effectiveness, execute individual files as error in subtask2 code has not been resolved yet.
+>>The code for subtask2 seemed to be working on the google colab platform but somehow showcases some error on ubuntu. So that can be a compiler issue or so. Do consider such abberations. Thank You.
+
+
+>>>Task 2: Decision Tree Classifier
+
+>>Decision trees are supervised learning algorithms used for both, classification and regression tasks. Decision trees are assigned to the information based learning algorithms which use different measures of information gain for learning. We can use decision trees for issues where we have continuous but also categorical input and target features. The main idea of decision trees is to find those descriptive features which contain the most "information" regarding the target feature and then split the dataset along the values of these features such that the target feature values for the resulting sub_datasets are as pure as possible --> The descriptive feature which leaves the target feature most purely is said to be the most informative one. This process of finding the "most informative" feature is done until we accomplish a stopping criteria where we then finally end up in so called leaf nodes. The leaf nodes contain the predictions we will make for new query instances presented to our trained model. This is possible since the model has kind of learned the underlying structure of the training data and hence can, given some assumptions, make predictions about the target feature value (class) of unseen query instances.
+A decision tree mainly contains of a root node, interior nodes, and leaf nodes which are then connected by branches.
+Structure of a Decision Tree
+Decision trees are further subdivided whether the target feature is continuously scaled like for instance house prices or categorically scaled like for instance animal species.
+Continuous and Categorically scaled data
+In simplified terms, the process of training a decision tree and predicting the target features of query instances is as follows:
+1. Present a dataset containing of a number of training instances characterized by a number of descriptive features and a target feature
+2. Train the decision tree model by continuously splitting the target feature along the values of the descriptive features using a measure of information gain during the training process
+3. Grow the tree until we accomplish a stopping criteria --> create leaf nodes which represent the predictions we want to make for new query instances
+4. Show query instances to the tree and run down the tree until we arrive at leaf nodes
+
+>>>>https://www.geeksforgeeks.org/decision-tree-implementation-python/
+>>>>https://scikit-learn.org/stable/modules/tree.html
+Above are links to access a few different codes to design a decision tree algorithm.
+The code submitted in "DTC.py" is a simple implementation of the Decision Tree module already provided by the scikit learn libraby in python. To execute the code, nothing extra needs to be done.
+The code can be run just by diving the normal necessary commands and the output files are predominantly saved in the required directory.
+
+
+
+>>>>Special Mentiions: The programs are effectively executable on any mahine with standard configuration and can br easily compiled and run without much problem.
